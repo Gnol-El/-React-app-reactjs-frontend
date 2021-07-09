@@ -1,0 +1,7 @@
+version: '3'
+services:
+  frontend_northwind: 
+    build: .
+    container_name: "frontend_container"
+    ports: 
+      - "8008:3000"
